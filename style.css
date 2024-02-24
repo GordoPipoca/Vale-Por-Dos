@@ -1,0 +1,469 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+body {
+    background-color: #421b38;
+    margin: 0;
+}
+
+section, header, footer, main {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+main {
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url(assets/imagenes/mainfondo.jpg);
+    background-size: cover;
+    overflow: hidden;
+}
+
+h1, #txtmain {
+    color: white;
+    font-family: 'Dancing Script';
+    position: relative;
+    z-index: 1;
+    text-shadow: 0.5px 0.5px 2px black;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 6rem;
+    margin-bottom: 10px;
+}
+
+#txtmain {
+    font-weight: 400;
+    font-size: 3rem;
+    text-align: center;
+}
+
+/* Seccion 1 */
+#S1 {
+    height: 940px;
+    background-color: #f5d7f3;
+    margin-bottom: 0;
+}
+
+#who {
+    height: auto;
+}
+
+#info1 {
+    height: 500px;
+    width: 310px;
+    background-color: #dcbadb;
+    background-image: url(assets/imagenes/Historia\ de\ Instagram\ Sale\ Descuento\ Celular\ Minimalista\ Rosa.png);
+    background-size: contain;
+    float: left;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#info2 {
+    height: 300px;
+    width: 250px;
+    background-color: #da85af;
+    float: left;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info2 h4 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px white;
+}
+
+#info3 {
+    height: 300px;
+    width: 250px;
+    background-color: #da85af;
+    float: left;
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info3 h4 {
+    font-size: 2em;
+    text-align: center;
+    text-shadow: 2px 2px 2px white;
+}
+
+#info4 {
+    height: 500px;
+    width: 310px;
+    background-color: #c3b9e3;
+    margin-left: 5px;
+    float: left;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-image: url(assets/imagenes/Las\ mejores\ porciones\ individuales.png);
+    background-size: contain;
+}
+
+#info5 {
+    height: 200px;
+    width: 300px;
+    background-color: #eccdd9;
+    float: left;
+    margin: 7px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#ubicacion {
+    height: 95px;
+    max-width: 100%;
+}
+
+#info6 {
+    height: 400px;
+    width: 500px;
+    background-color: #7f5f8e;
+    position: relative;
+    bottom: 190px;
+    float: left;
+    margin: 9px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script';
+}
+
+#info6 h2 {
+    font-weight: 900;
+    font-size: 70px;
+    text-shadow: 2px 2px 2px white;
+}
+
+#info7 {
+    width: 820px;
+    height: 200px;
+    background-color: #bb83a7;
+    float: left;
+    position: relative;
+    bottom: 190px;
+    border: 2px solid black;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#info7 h4 {
+    font-size: 3em;
+    text-shadow: 2px 2px 2px white;
+}
+
+#info8 {
+    width: 300px;
+    height: 400px;
+    background-color: #da85af;
+    background-image: url(assets/imagenes/publicacion\ panaderia.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    position: relative;
+    bottom: 400px;
+    left: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+/* Seccion 2 */
+#S2 {
+    height: 800px;
+    background-color: #f5d7f3;
+    margin-top: 0;
+}
+
+#productos {
+    margin-top: 40px;
+    background-color: #f5d7f3;
+    padding: 20px;
+    margin-top: 0;
+}
+#prodypan{
+    position: relative;
+    bottom: 200px;
+}
+
+.product-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.product {
+    width: 300px;
+    margin: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0,
+    0.1);
+}
+
+.product img {
+max-width: 100%;
+height: auto;
+border-radius: 5px;
+margin-bottom: 10px;
+}
+
+.product h3 {
+font-size: 18px;
+margin-bottom: 10px;
+}
+
+.product p {
+font-size: 14px;
+color: #666;
+}
+#S3 {
+    background-color: #f5d7f3;
+    padding: 40px 0;
+}
+
+.recommendations-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.recommendation-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.recommendation {
+    background-color: #fff;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.rating {
+    font-size: 24px;
+    color: #FFD700; /* Color amarillo para las estrellas */
+    margin-bottom: 10px;
+}
+
+/* Añade estilos de animación al hacer hover */
+.recommendation:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+#footer {
+    background-color: #2c132b; /* Cambia el color de fondo a uno más oscuro */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid #dcbadb; /* Línea de separación con el contenido principal */
+}
+
+.contact-info, .social-media {
+    text-align: center;
+}
+
+.contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contact-info p, .social-media a {
+    margin: 8px 0;
+}
+
+.contact-info a, .social-media a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 20px; /* Espaciado entre los elementos */
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #da85af; /* Cambia el color al pasar el ratón */
+}
+
+.social-media img {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; /* Espaciado entre los elementos */
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-media img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5); /* Ajusta el brillo al pasar el ratón */
+}
+
+/* Nuevos estilos para el logo de WhatsApp */
+#whatsapp-logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 20px; /* Espaciado entre los elementos */
+    cursor: pointer;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+#whatsapp-logo:hover {
+    transform: scale(1.2);
+    filter: brightness(1.5); /* Ajusta el brillo al pasar el ratón */
+}
+
+/* Estilo para el texto de derechos reservados */
+.copyright {
+    font-size: 0.8em;
+}
+@media only screen and (max-width: 600px) {
+    main {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #txtmain {
+        font-size: 2rem;
+    }
+
+    #S1, #S2 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #who, .product-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info1, #info2, #info3, #info4, #info5, #info6, #info7, #info8, .product {
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 10px;
+        position: static; /* Ajuste de posición */
+    }
+
+    #ubicacion {
+        height: 60px;
+    }
+
+    #info6 h2 {
+        font-size: 40px;
+    }
+
+    #prodypan {
+        bottom: 0;
+    }
+
+    /* Corregir la superposición de elementos en el main */
+    #main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media all and (min-width: 600px) and (max-width: 1199px) {
+    header {
+        position: static;
+    }
+
+    main {
+        height: auto;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    #txtmain {
+        font-size: 2rem;
+    }
+
+    #S1, #S2 {
+        height: auto;
+        padding: 20px 0;
+    }
+
+    #who, .product-container {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #info1, #info2, #info3, #info4, #info5, #info6, #info7, #info8, .product {
+        width: 100%;
+        margin: 10px 0;
+        box-sizing: border-box;
+        padding: 10px;
+        position: static; /* Ajuste de posición */
+    }
+
+    #ubicacion {
+        height: 60px;
+    }
+
+    #info6 h2 {
+        font-size: 40px;
+    }
+
+    #prodypan {
+        bottom: 0;
+    }
+
+    #S1 h4 {
+        font-size: 1.8rem; /* Ajuste de tamaño de fuente en S1 */
+    }
+
+    /* Corregir la superposición de elementos en el main */
+    #main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
